@@ -844,8 +844,6 @@ export class Tooltip extends FASTElement {
     delay: number;
     // (undocumented)
     disconnectedCallback(): void;
-    // @internal (undocumented)
-    handleAnchorMouseOut: (ev: Event) => void;
     // @internal
     handlePositionChange: (ev: Event) => void;
     // @internal (undocumented)
